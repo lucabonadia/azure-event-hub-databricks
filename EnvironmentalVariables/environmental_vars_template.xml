@@ -1,0 +1,12 @@
+<VariabiliTesi>
+	<!-- Namespace connection string -->
+	<!-- Event hub -> Shared access policies -> RootManageSharedAccessKey -> Connection string–primary key -->
+	<namespace-connection-string></namespace-connection-string>
+	<!-- Name of the event hub -->
+	<event-hub-name></event-hub-name>
+	<!-- Connection string of the blob container -->
+	<!-- Storage accounts -> Access Key -> key1 -> Connection string -->
+	<blob-storage-connection-string></blob-storage-connection-string>
+	<!-- Blob container name-->
+	<blob-container-name></blob-container-name>
+</VariabiliTesi>

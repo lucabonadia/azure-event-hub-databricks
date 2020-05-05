@@ -29,7 +29,7 @@ namespace TestTesi
 
                 // Add events to the batch. An event is a represented by a collection of bytes and metadata. 
                 for (int i = 0; i < 10; i++)    
-                    eventBatch.TryAdd(new EventData(Encoding.UTF8.GetBytes("Testing with XML, test n°"+i)));
+                    eventBatch.TryAdd(new EventData(Encoding.UTF8.GetBytes("Testing, test n°"+i)));
     
                 // Use the producer client to send the batch of events to the event hub
                 await producerClient.SendAsync(eventBatch);
